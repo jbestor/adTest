@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ADBannerViewDelegate>
 
+@property (strong, nonatomic) IBOutlet UIButton *button1;
+@property (strong, nonatomic) IBOutlet UIButton *button2;
+@property (strong, nonatomic) IBOutlet UIButton *button3;
 
 @end
 
